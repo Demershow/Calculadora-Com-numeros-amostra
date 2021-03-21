@@ -1,0 +1,22 @@
+.display{
+  margin-top:12px;
+  height: 50px;
+  font-size: 45px;
+}
+
+.btn{
+  background-color: gainsboro;
+  font-size: 25px;
+}
+
+body{
+  background-color: grey;
+}
+
+.linha{
+  margin-top: 60px;
+}
+.btn:hover{
+Background-color: white;
+}
+
