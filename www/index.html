@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
   <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
   <script src="components/loader.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="components/calcul.js"></script>
 
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
@@ -25,66 +27,66 @@
 
  <div class="row linha">
 	    <div class="offset-7 col-5">
-        <button class="btn btn-block">CE</button>
+        <button class="btn btn-block ce">CE</button>
       </div>
      
   </div>    
 
   <div class="row linha">
 	    <div class="col-3">
-         <button class="btn btn-block">1</button>
+         <button class="btn btn-block botao" value = "1">1</button>
       </div>
 	    <div class="col-3">
-         <button class="btn btn-block">2</button>
+         <button class="btn btn-block botao" value = "2">2</button>
       </div>
 	    <div class="col-3">
-         <button class="btn btn-block">3</button>
+         <button class="btn btn-block botao" value = "3">3</button>
       </div>
 	    <div class="col-3">
-         <button class="btn btn-block">-</button>
-      </div>
-  </div>
-  <div class="row linha">
-	    <div class="col-3">
-        <button class="btn btn-block">4</button>
-      </div>
-	    <div class="col-3">
-        <button class="btn btn-block">5</button>
-      </div>
-	    <div class="col-3">
-         <button class="btn btn-block">6</button>
-      </div>
-	    <div class="col-3">
-         <button class="btn btn-block">*</button>
+         <button class="btn btn-block op">-</button>
       </div>
   </div>
   <div class="row linha">
 	    <div class="col-3">
-        <button class="btn btn-block">7</button>
+        <button class="btn btn-block botao" value = "4">4</button>
       </div>
 	    <div class="col-3">
-         <button class="btn btn-block">8</button>
+        <button class="btn btn-block botao" value = "5">5</button>
       </div>
 	    <div class="col-3">
-         <button class="btn btn-block">9</button>
+         <button class="btn btn-block botao" value = "6">6</button>
       </div>
 	    <div class="col-3">
-         <button class="btn btn-block">/</button>
+         <button class="btn btn-block OP">*</button>
+      </div>
+  </div>
+  <div class="row linha">
+	    <div class="col-3">
+        <button class="btn btn-block botao" value = "7">7</button>
+      </div>
+	    <div class="col-3">
+         <button class="btn btn-block botao" value = "8">8</button>
+      </div>
+	    <div class="col-3">
+         <button class="btn btn-block botao" value = "9">9</button>
+      </div>
+	    <div class="col-3">
+         <button class="btn btn-block OP">/</button>
 	    </div>
   </div>    
    <div class="row linha">
 	    <div class="col-3">
-        <button class="btn btn-block">0</button>
+        <button class="btn btn-block botao" value = "0">0</button>
       </div>
 	    <div class="col-3">
-         <button class="btn btn-block">.</button>
+         <button class="btn btn-block botao" value= ".">.</button>
       </div>
 	    <div class="col-3">
-         <button class="btn btn-block">=</button>
+         <button class="btn btn-block" id= "igual">=</button>
       </div>
 	    <div class="col-3">
-         <button class="btn btn-block">+</button>
-	    </div>
+         <button class="btn btn-block OP">+</button>
+	    </div>/
   </div>    
 </div>
  </div>
